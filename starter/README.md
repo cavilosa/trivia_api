@@ -73,6 +73,14 @@ psql -d trivia -U postgres -a -f trivia.psql
 
 ```
 
+## Create .env
+Inside /backend folder create .env file with following variables to access your local database:
+```bash
+password="YOUR_PASSWORD"
+username="YOUR_USERNAME"
+```
+
+
 ## Running the server
 
 From within the `backend` directory first ensure you are working using your created virtual environment:
